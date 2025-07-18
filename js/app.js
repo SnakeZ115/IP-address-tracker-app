@@ -15,7 +15,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 //
 
-// document.addEventListener('DOMContentLoaded', getIP(""))
+document.addEventListener('DOMContentLoaded', getIP(""))
 
 searchButton.addEventListener('click', () => {
     getIP(ipInput.value);
